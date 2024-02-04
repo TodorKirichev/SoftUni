@@ -1,4 +1,4 @@
-package JavaAdvanced.OOP.WorkingWithAbstractionLab._4_HotelReservation;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionLab._4_HotelReservation;
 
 public enum Season {
     AUTUMN(1),

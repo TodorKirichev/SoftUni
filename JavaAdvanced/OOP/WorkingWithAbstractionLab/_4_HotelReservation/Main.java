@@ -1,4 +1,4 @@
-package JavaAdvanced.OOP.WorkingWithAbstractionLab._4_HotelReservation;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionLab._4_HotelReservation;
 
 import java.util.Scanner;
 

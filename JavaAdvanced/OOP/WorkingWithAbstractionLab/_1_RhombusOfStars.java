@@ -1,4 +1,4 @@
-package JavaAdvanced.OOP.WorkingWithAbstractionLab;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionLab;
 
 import java.util.Scanner;
 

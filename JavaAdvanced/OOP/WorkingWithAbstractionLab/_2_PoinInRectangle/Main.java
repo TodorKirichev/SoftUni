@@ -1,4 +1,4 @@
-package JavaAdvanced.OOP.WorkingWithAbstractionLab._2_PoinInRectangle;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionLab._2_PoinInRectangle;
 
 import java.util.Scanner;
 

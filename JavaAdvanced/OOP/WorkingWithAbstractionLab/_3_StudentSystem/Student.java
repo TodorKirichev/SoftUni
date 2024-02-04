@@ -1,4 +1,4 @@
-package JavaAdvanced.OOP.WorkingWithAbstractionLab._3_StudentSystem;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionLab._3_StudentSystem;
 
 public class Student {
     private String name;

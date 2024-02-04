@@ -1,4 +1,4 @@
-package JavaAdvanced.OOP.WorkingWithAbstractionLab._2_PoinInRectangle;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionLab._2_PoinInRectangle;
 
 public class Rectangle {
     private Point bottomLeft;
