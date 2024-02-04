@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam17June2023.AutomotiveRepairShop;
+package Exams.EXAMS.JavaAdvancedRegularExam17June2023.AutomotiveRepairShop;
 
 public class Vehicle {
     private String VIN;

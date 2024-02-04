@@ -1,10 +1,7 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam18February2023;
+package Exams.EXAMS.JavaAdvancedRegularExam18February2023;
 
 import java.util.*;
-import java.util.function.Consumer;
-import java.util.function.Function;
 
-import static java.lang.System.currentTimeMillis;
 import static java.lang.System.in;
 
 public class ApocalypsePreparation {

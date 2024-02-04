@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam22October2022.AnimalShelter;
+package Exams.EXAMS.JavaAdvancedRegularExam22October2022.AnimalShelter;
 
 public class Animal {
     private String name;

@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam18February2023.SoftUniKindergarten;
+package Exams.EXAMS.JavaAdvancedRegularExam18February2023.SoftUniKindergarten;
 
 public class Child {
     private String firstName;

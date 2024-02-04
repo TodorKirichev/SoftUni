@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRetakeExam9August2023.VendingMachine;
+package Exams.EXAMS.JavaAdvancedRetakeExam9August2023.VendingMachine;
 
 import java.math.BigDecimal;
 import java.util.Scanner;

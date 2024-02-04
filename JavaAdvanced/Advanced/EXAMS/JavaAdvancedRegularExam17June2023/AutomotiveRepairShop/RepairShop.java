@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam17June2023.AutomotiveRepairShop;
+package Exams.EXAMS.JavaAdvancedRegularExam17June2023.AutomotiveRepairShop;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam17June2023;
+package Exams.EXAMS.JavaAdvancedRegularExam17June2023;
 
 import java.util.Scanner;
 

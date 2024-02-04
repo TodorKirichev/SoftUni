@@ -1,10 +1,9 @@
-package Advanced.EXAMS.JavaAdvancedRetakeExam18August2022;
+package Exams.EXAMS.JavaAdvancedRetakeExam18August2022;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 import static java.lang.System.in;
 

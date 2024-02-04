@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRetakeExam13December2023.FishingPond;
+package Exams.EXAMS.JavaAdvancedRetakeExam13December2023.FishingPond;
 
 public class Fish {
     private String species;

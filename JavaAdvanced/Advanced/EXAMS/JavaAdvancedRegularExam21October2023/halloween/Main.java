@@ -1,8 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam21October2023.halloween;
-
-import java.util.Scanner;
-
-import static java.lang.System.in;
+package JavaAdvanced.Advanced.EXAMS.JavaAdvancedRegularExam21October2023.halloween;
 
 public class Main {
     public static void main(String[] args) {// Initialize the repository

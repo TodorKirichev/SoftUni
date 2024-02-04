@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRegularExam21October2023.halloween;
+package JavaAdvanced.Advanced.EXAMS.JavaAdvancedRegularExam21October2023.halloween;
 
 public class Kid {
     private String name;

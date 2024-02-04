@@ -1,4 +1,4 @@
-package Advanced.EXAMS.JavaAdvancedRetakeExam12April2023;
+package Exams.EXAMS.JavaAdvancedRetakeExam12April2023;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
