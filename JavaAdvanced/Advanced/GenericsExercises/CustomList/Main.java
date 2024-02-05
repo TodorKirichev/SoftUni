@@ -1,4 +1,4 @@
-package Exams.GenericsExercises.CustomList;
+package SoftUni.JavaAdvanced.Advanced.GenericsExercises.CustomList;
 import java.util.Scanner;
 
 import static java.lang.System.in;

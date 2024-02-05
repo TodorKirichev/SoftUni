@@ -1,4 +1,4 @@
-package Exams.GenericsExercises.CustomList;
+package SoftUni.JavaAdvanced.Advanced.GenericsExercises.CustomList;
 
 public class Sorter {
 

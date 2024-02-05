@@ -1,4 +1,4 @@
-package Exams.GenericsExercises.CustomList;
+package SoftUni.JavaAdvanced.Advanced.GenericsExercises.CustomList;
 
 import java.util.ArrayList;
 import java.util.Collections;
