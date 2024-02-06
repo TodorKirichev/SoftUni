@@ -1,4 +1,4 @@
-package JavaAdvanced.DefiningClassesExercises._4_RawData;
+package SoftUni.JavaAdvanced.Advanced.DefiningClassesExercises._4_RawData;
 
 public class Tire {
     double pressure;
