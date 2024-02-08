@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise.TrafficLights;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise._4_TrafficLights;
 
 import java.util.ArrayList;
 import java.util.List;

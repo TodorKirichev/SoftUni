@@ -1,7 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise.Card;
-
-import SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise.Card.CardRank;
-import SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise.Card.CardSuit;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise._1_2_3_Card;
 
 import java.util.Scanner;
 

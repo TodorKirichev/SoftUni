@@ -1,4 +1,4 @@
-package Exams.EXAMS.JavaAdvancedRetakeExam18August2022.ElephantSanctuary;
+package SoftUni.JavaAdvanced.Advanced.EXAMS.JavaAdvancedRetakeExam18August2022.ElephantSanctuary;
 
 public class Elephant {
     private String name;

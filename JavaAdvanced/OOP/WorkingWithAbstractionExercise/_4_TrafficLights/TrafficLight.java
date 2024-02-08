@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise.TrafficLights;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise._4_TrafficLights;
 
 public class TrafficLight {
     private Color color;
