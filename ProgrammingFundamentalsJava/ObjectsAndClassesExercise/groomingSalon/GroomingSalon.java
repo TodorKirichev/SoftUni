@@ -1,4 +1,4 @@
-package ObjectsAndClassesExercise.groomingSalon;
+package SoftUni.ProgrammingFundamentalsJava.ObjectsAndClassesExercise.groomingSalon;
 
 import java.util.ArrayList;
 import java.util.List;
