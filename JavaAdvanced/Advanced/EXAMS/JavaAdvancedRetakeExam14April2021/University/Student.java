@@ -1,4 +1,4 @@
-package university;
+package SoftUni.JavaAdvanced.Advanced.EXAMS.JavaAdvancedRetakeExam14April2021.University;
 
 public class Student {
     public String firstName;
