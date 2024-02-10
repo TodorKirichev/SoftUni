@@ -1,4 +1,4 @@
-package ObjectsAndClassesExercise.groomingSalon;
+package SoftUni.ProgrammingFundamentalsJava.ObjectsAndClassesExercise.groomingSalon;
 
 public class Pet {
     private String name;
