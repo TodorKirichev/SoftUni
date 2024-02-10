@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise.Card;
+package SoftUni.JavaAdvanced.OOP.WorkingWithAbstractionExercise._1_2_3_Card;
 
 public enum CardSuit {
 
