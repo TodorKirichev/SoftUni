@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.EncapsulationExercises.PizzaCalories;
+package SoftUni.JavaAdvanced.OOP.EncapsulationExercises._4_PizzaCalories;
 
 import java.util.ArrayList;
 import java.util.List;
