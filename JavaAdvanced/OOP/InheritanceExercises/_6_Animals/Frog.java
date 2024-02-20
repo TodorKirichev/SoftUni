@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.InheritanceExercises.Animals;
+package SoftUni.JavaAdvanced.OOP.InheritanceExercises._6_Animals;
 
 public class Frog extends Animal{
     public Frog(String name, int age, String gender) {

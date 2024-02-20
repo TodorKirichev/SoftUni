@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.OOP.InheritanceExercises.Animals;
+package SoftUni.JavaAdvanced.OOP.InheritanceExercises._6_Animals;
 
 import java.util.ArrayList;
 import java.util.List;
