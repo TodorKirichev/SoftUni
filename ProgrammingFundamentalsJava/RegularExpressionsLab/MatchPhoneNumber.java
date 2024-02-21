@@ -1,4 +1,4 @@
-package RegularExpressionsLab;
+package SoftUni.ProgrammingFundamentalsJava.RegularExpressionsLab;
 
 import java.util.ArrayList;
 import java.util.List;
