@@ -13,7 +13,6 @@ import SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRetakeExam19December2023.climbers.r
 import SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRetakeExam19December2023.climbers.repositories.MountainRepository;
 import SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRetakeExam19December2023.climbers.repositories.Repository;
 
-import java.util.Arrays;
 import java.util.Collection;
 
 public class ControllerImpl implements Controller{
@@ -75,12 +74,31 @@ public class ControllerImpl implements Controller{
         Climbing climbing = new ClimbingImpl();
         climbing.conqueringPeaks(mountain,climbers);
         long removed = climbers.stream().filter(d -> d.getStrength() == 0).count();
+        mountains++;
         return String.format(ConstantMessages.PEAK_CLIMBING,mountainName,removed);
     }
 
     @Override
     public String getStatistics() {
         StringBuilder sb = new StringBuilder();
+        sb.append(String.format(ConstantMessages.FINAL_MOUNTAIN_COUNT,mountains))
+                .append(System.lineSeparator());
+        sb.append(ConstantMessages.FINAL_CLIMBERS_STATISTICS)
+                .append(System.lineSeparator());
 
+        for (Climber climber : climberRepository.getCollection()) {
+            sb.append(String.format(ConstantMessages.FINAL_CLIMBER_NAME,climber.getName()))
+                    .append(System.lineSeparator());
+            sb.append(String.format(ConstantMessages.FINAL_CLIMBER_STRENGTH,climber.getStrength()))
+                    .append(System.lineSeparator());
+            if (climber.getRoster().getPeaks().isEmpty()) {
+                sb.append(String.format(ConstantMessages.FINAL_CLIMBER_PEAKS,"None"));
+            } else {
+                sb.append(String.format(ConstantMessages.FINAL_CLIMBER_PEAKS,
+                        String.join(ConstantMessages.FINAL_CLIMBER_FINDINGS_DELIMITER, climber.getRoster().getPeaks())));
+            }
+            sb.append(System.lineSeparator());
+        }
+        return sb.toString().trim();
     }
 }
