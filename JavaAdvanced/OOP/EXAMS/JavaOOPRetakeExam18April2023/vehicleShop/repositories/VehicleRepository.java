@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-public class VehicleRepository implements Repository<Vehicle> {
+public class VehicleRepository<T> implements Repository<Vehicle> {
     private Collection<Vehicle> vehicles;
 
     public VehicleRepository() {

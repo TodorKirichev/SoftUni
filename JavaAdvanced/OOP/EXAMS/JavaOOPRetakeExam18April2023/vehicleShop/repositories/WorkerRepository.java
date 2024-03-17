@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-public class WorkerRepository implements Repository<Worker> {
+public class WorkerRepository<T> implements Repository<Worker> {
     private Collection<Worker> workers;
 
     public WorkerRepository() {
