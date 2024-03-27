@@ -1,0 +1,6 @@
+package SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.restaurant.common.enums;
+
+public enum BeveragesType {
+    Smoothie,
+    Fresh
+}
