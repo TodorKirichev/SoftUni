@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.Advanced.EXAMS.Exam.ex2;
+package SoftUni.JavaAdvanced.Advanced.EXAMS.FINALEXAM.ex2;
 
 import java.util.Scanner;
 
