@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.Advanced.EXAMS.Exam.ex1;
+package SoftUni.JavaAdvanced.Advanced.EXAMS.FINALEXAM.ex1;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

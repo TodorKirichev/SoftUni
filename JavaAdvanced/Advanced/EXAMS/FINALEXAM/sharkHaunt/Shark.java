@@ -1,4 +1,4 @@
-package SoftUni.JavaAdvanced.Advanced.EXAMS.Exam.sharkHaunt;
+package SoftUni.JavaAdvanced.Advanced.EXAMS.FINALEXAM.sharkHaunt;
 
 public class Shark {
     private String kind;
