@@ -12,6 +12,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Contact contact = Contact.builder()
+                .withBirthday("asda")
+                .withNumber("1231")
+                .build();
     }
 
     private static List<String> readContactInfo(Scanner input) {
