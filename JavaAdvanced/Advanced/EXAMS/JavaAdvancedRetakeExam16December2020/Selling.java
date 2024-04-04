@@ -84,7 +84,7 @@ public class Selling {
             }
         }
         if (isOutside) {
-            System.out.println("Bad news, you are out of the bakery.");
+            System.out.println("Bad news, you are out of the SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam12December2020.bakery.");
         } else {
             bakery[playerRow][playerCol] = 'S';
         }
