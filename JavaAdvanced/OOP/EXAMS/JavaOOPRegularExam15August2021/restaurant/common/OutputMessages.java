@@ -5,7 +5,7 @@ public class OutputMessages {
 
     public static final String BEVERAGE_ADDED = "Added %s - %s to the beverage menu!";
 
-    public static final String TABLE_ADDED = "Added table number %d in the healthy SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.restaurant!";
+    public static final String TABLE_ADDED = "Added table number %d in the healthy SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.SoftUni.JavaAdvanced.OOP.EXAMS.EXAM.restaurant!";
 
     public static final String TABLE_RESERVED = "Table %d has been reserved for %d people.";
 
@@ -23,5 +23,5 @@ public class OutputMessages {
 
     public static final String BILL = "Table: %d with bill: %.2f";
 
-    public static final String TOTAL_MONEY =  "Total money for the SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.restaurant: %.2flv.";
+    public static final String TOTAL_MONEY =  "Total money for the SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.SoftUni.JavaAdvanced.OOP.EXAMS.EXAM.restaurant: %.2flv.";
 }

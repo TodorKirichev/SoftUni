@@ -71,7 +71,7 @@ public class ControllerImpl implements Controller {
     public String addTable(String type, int tableNumber, int capacity) {
         Table table = tableRepository.getByNumber(tableNumber);
         if (table != null) {
-            throw new IllegalArgumentException(String.format("Table %d is already added to the restaurant", tableNumber));
+            throw new IllegalArgumentException(String.format("Table %d is already added to the SoftUni.JavaAdvanced.OOP.EXAMS.EXAM.restaurant", tableNumber));
         }
         switch (type) {
             case "InsideTable":

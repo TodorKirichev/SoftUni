@@ -19,7 +19,7 @@ public class ExceptionMessages {
 
     public static final String BEVERAGE_EXIST = "%s is already in the beverage menu!";
 
-    public static final String TABLE_EXIST = "Added table number %d in the healthy SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.restaurant!";
+    public static final String TABLE_EXIST = "Added table number %d in the healthy SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.SoftUni.JavaAdvanced.OOP.EXAMS.EXAM.restaurant!";
 
-    public static final String TABLE_IS_ALREADY_ADDED = "Table %d is already added to the healthy SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.restaurant!";
+    public static final String TABLE_IS_ALREADY_ADDED = "Table %d is already added to the healthy SoftUni.JavaAdvanced.OOP.EXAMS.JavaOOPRegularExam15August2021.SoftUni.JavaAdvanced.OOP.EXAMS.EXAM.restaurant!";
 }
