@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    font-family: Montserrat , sans-serif;
+    padding: 16px;
+}
+
+th {
+    background: lightblue;
+}
+
+th,td {
+    width: 144px;
+    height: 32px;
+    border: solid 1px #ccc;
+    padding-left: 5px;
+}
