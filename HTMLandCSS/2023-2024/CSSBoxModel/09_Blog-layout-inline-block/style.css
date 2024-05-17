@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51) ;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherits;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+aside {
+    vertical-align: top;
+    width: 25%;
+}
+
+article,aside {
+    display: inline-block;
+}
+
+img {
+    width: 600px;
+}
+
+article {
+    width: 65%;
+    padding: 20px;
+}
+
+ul {
+    list-style: square;
+}
