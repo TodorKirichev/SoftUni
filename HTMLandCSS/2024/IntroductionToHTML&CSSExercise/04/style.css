@@ -1,0 +1,11 @@
+p:first-of-type {
+    color: grey;
+}
+
+time {
+    font-style: italic;
+}
+
+span {
+    font-weight: 700;
+}
