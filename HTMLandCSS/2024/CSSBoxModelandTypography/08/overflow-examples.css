@@ -1,0 +1,23 @@
+div {
+    border: 2px solid black;
+    padding: 1rem;
+    width: 20rem;
+    height: 6rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.first {
+    overflow: visible;
+}
+
+.second {
+    overflow: hidden;
+}
+
+.third {
+    overflow: scroll;
+}
