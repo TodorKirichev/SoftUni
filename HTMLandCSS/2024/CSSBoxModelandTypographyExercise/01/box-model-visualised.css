@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+div {
+    border: 1px dashed black;
+}
+
+.container {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.container div {
+    padding: 50px;
+    position: relative;
+}
+
+.margin>p, .border>p, .padding>p {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+
+.margin {
+    background-color: #FF966F;
+}
+
+.border {
+    background-color: #FFE8C6;
+}
+
+.padding {
+    background-color: #85EB85;
+}
+
+div.content {
+    background-color: #A3D2E2;
+    text-align: center;
+    padding: 20px;
+}
+
+

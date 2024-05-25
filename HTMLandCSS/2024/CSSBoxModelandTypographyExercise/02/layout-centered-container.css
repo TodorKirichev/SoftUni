@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+body {
+    margin: 10px;
+    border: 2px solid green;
+}
+.container {
+    border: 2px solid blue;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+p {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
