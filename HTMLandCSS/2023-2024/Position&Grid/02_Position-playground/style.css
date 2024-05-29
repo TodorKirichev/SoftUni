@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+div.first, div.second {
+    position: relative;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+div.first {
+    background-color: lightskyblue;
+}
+
+div.second {
+    background-color: lightsalmon;
+}
+
+section.card {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+section.first {
+    background-image: url(images/picture1.jpg);
+}
+
+section.second {
+    background-image: url(images/picture2.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+
+

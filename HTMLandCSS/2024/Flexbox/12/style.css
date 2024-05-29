@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 1rem;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.item1 {
+    order: 5;
+}
+
+.item2 {
+    order: 3;
+}
+
+.item3 {
+    order: 1;
+}
+
+.item4 {
+    order: 6;
+}
+
+.item5 {
+    order: 2;
+}
+
+.item6 {
+    order: 4;
+}

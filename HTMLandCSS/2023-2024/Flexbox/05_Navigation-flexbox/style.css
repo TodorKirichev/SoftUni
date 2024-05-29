@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 20px 40px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 1.5rem 0;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    color: rgb(0, 153, 0);
+    padding: 20px;
+}
+
+
+.title {
+    flex-basis: 70%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding: 20px 0;
+}
+main p {
+    padding-bottom: 20px;
+}

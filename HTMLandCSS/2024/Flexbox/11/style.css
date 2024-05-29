@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 1rem;
+    width: 300px;
+    height: 150px;
+    align-items: flex-start;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #eee;
+}
+.second .second {
+    align-self: center;
+}
+
+.third .second {
+    align-self: flex-end;
+}
+
+.fourth .second {
+    align-self: baseline;
+}

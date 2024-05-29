@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 1rem;
+    width: 70%;
+    height: 200px;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.first {
+    align-items: flex-start;
+}
+
+.second {
+    align-items: flex-end;
+}
+
+.third {
+    align-items: center;
+}
+
+.fourth {
+    align-items: baseline;
+}
+
+.fifth {
+    align-items: stretch;
+}

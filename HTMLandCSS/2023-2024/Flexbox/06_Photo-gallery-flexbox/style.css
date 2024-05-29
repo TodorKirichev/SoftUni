@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.gallery {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+}
+
+li {
+    display: flex;
+    height: auto;
+    border: 8px solid black;
+    padding: 1rem;
+    align-items: center;
+}
+
