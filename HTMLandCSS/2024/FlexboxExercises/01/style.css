@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font: 14px/1.5 Arial,sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    width: 40%;
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 1.05rem;
+}
+
+section {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+footer p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+header p,
+footer p {
+    opacity: 0.5;
+}

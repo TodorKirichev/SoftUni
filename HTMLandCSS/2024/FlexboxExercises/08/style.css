@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+    font: 14px/1.5 sans-serif;
+}
+
+.container {
+    background-color: #ddd;
+    width: 900px;
+    height: 350px;
+    margin: 200px auto;
+    border: 1px solid #aaa;
+    border-bottom: 4px solid #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.container div {
+    display: flex;
+    flex-grow: 1;
+    gap: 14px;
+}
+
+div div div{
+    border: 1px solid #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: white;
+    border-bottom: 3px solid #bbb;
+}
+
+.first-row div,
+.sixth-row div {
+    background-color: #eee;
+}
+
+div div div:last-of-type {
+    background-color: #eee;
+}
+
+div div div:first-of-type {
+    background-color: #eee;
+}
+
+.second-row div:first-of-type {
+    background-color: white;
+}
+
+.third-row div:first-of-type {
+    flex-grow: 1.5;
+}
+
+.third-row div:last-of-type {
+    flex-grow: 1.5;
+}
+
+.fourth-row div:last-of-type {
+    flex-grow: 2;
+}
+
+.fifth-row div:last-of-type {
+    flex-grow: 3;
+}
+
+.sixth-row :nth-child(4) {
+    flex-grow: 9;
+    background-color: white;
+}
+
+.fourth-row {
+    position: relative;
+}
+
+.fourth-row div:last-child::after {
+    content: '';
+    width: 71px;
+    height: 50px;
+    background-color: #eee;
+    position: absolute;
+    right: 0px;
+    top: -17px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
