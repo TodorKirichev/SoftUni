@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1060px;
+    max-height: 610px;
+    margin: 60px auto;
+    display: flex;
+    background-color: #85DCFF;
+    justify-content: space-between;
+    padding: 70px 30px;
+    gap: 80px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+
+.content {
+    padding: 120px 0;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 16px;
+}
+
+.buttons a {
+    padding: 14px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.buttons :first-child {
+    border: 1px solid black;
+    background-color: #42AA59;
+}
+
+.buttons :first-child:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttons :last-child {
+    background-color: #fff;
+}
+
+img {
+    display: block;
+    max-width: 360px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.3),
+    5px 5px 6px rgb(0, 0, 0, 0.8);
+}
+
+h1 {
+    max-width: 400px;
+    font-size: 43px;
+    line-height: 50px;
+    padding-bottom: 28px;
+}
+
+p {
+    font-weight: normal;
+    letter-spacing: 0.2px;
+}
