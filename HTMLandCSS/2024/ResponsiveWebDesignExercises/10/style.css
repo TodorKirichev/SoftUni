@@ -1,0 +1,119 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font: 14px/1.5 Arial, sans-serif;
+    padding: 2rem;
+}
+
+.container {
+    width: 800px;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    border: 1px solid #aaa;
+}
+
+img {
+    border-radius: 0.3rem;
+    width: 100%;
+}
+
+.content {
+    padding: 1rem 1rem 0 1rem;
+    position: relative;
+    top: -40px;
+}
+
+.content > header {
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.content > header::after {
+    width: 150px;
+    height: 20px;
+    display: block;
+    content: 'David Core';
+    padding: 0.3rem 0.3rem 0.6rem 0.3rem;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    text-align: center;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0, 0.2);
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    z-index: 1;
+}
+
+section header {
+    padding: 1rem 0.4rem 0.2rem 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section header p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+section header p:last-of-type {
+    color: rgb(36, 189, 163);
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    margin: 0.4em 0;
+    padding: 0.4rem 0.8rem;
+    background-color: #f5f5f5;
+    opacity: 0.8;
+}
+
+.price {
+    align-self: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+i {
+    padding-right: 0.2rem;
+}
+
+footer {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(36, 189, 163);
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+footer p:first-of-type {
+    font-size: 1.8rem;
+}
