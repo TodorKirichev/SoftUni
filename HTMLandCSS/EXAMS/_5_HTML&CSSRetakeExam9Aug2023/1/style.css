@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px/1.5 Inter,sans-serif;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    gap: 2rem;
+}
+
+article {
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    padding: 3rem;
+    align-items: center;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.5);
+}
+
+article .content {
+    flex: 1 1;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1 1;
+}
+
+.leftside article {
+    max-height: 300px;
+}
+
+.rightside {
+    display: flex;
+    flex-basis: 35%;
+}
+
+.rightside article {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img {
+    width: 100%;
+}
+
+.person-info {
+    display: flex;
+    border-top: 2px solid #eee;
+}
+
+i {
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+article p {
+    padding: 1rem 0;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.media {
+    width: 200px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.rightside i {
+    font-size: 6rem;
+    padding-bottom: 4rem;
+}
+
+.person-info .media {
+    width: 100px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info p {
+    padding: 0;
+}

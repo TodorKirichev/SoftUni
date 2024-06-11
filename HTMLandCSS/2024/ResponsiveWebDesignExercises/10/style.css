@@ -19,6 +19,7 @@ body {
     border-radius: 0.3rem;
     overflow: hidden;
     border: 1px solid #aaa;
+    margin: 0 auto;
 }
 
 img {
