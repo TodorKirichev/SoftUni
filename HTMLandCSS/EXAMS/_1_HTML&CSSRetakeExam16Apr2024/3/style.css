@@ -181,3 +181,20 @@ padding-right: 10px;
     width: 100%;
     aspect-ratio: 1/1;
 }
+
+.catalog2 .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 200px;
+}
+
+.catalog2 .wrapper .image {
+    flex: 0 1 200px;
+    overflow: hidden;
+}
+
+.catalog2 .wrapper .image img {
+    width: 100px;
+    height: auto;
+}
