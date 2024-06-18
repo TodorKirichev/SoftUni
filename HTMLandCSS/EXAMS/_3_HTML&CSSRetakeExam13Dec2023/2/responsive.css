@@ -1,0 +1,102 @@
+@media (max-width:600px) {
+
+    .placeholder {
+        height: auto;
+        padding-top: 3rem;
+    }
+
+
+    .tm-header-inner {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .tm-site-title {
+        text-align: center;
+    }
+
+    .tm-welcome-section {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        margin: 40px auto;
+    }
+
+    .tm-section-title {
+        margin: 0 auto;
+        font-size: 3rem;
+        padding: 0 2.5rem ;
+        margin-bottom: 2rem;
+    }
+
+    .tm-paging-links ul {
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.8rem;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tm-gallery-item {
+        max-width: 460px;
+    }
+
+    .tm-gallery-title {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-right: 40px;
+    }
+
+    .tm-gallery-description {
+        font-size: 1.3rem;
+    }
+
+    .tm-gallery-price {
+        font-size: 2.2rem;
+    }
+
+    #tm-gallery-page-all > article:nth-child(2) h4 {
+        margin: 0;
+    }
+
+    #tm-gallery-page-all > article:nth-child(3) h4,
+    #tm-gallery-page-all > article:nth-child(4) h4,
+    #tm-gallery-page-all > article:nth-child(5) h4 {
+        margin-right: 100px;
+    }
+
+    body > main > section.tm-cta-section.tm-section.tm-container-inner > article {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    body > main > section.tm-cta-section.tm-section.tm-container-inner > article {
+        width: 500px;
+    }
+
+    .tm-description-figure {
+        width: 500px;
+    }
+
+    .tm-description-box {
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    body > main > section.tm-cta-section.tm-section.tm-container-inner > article > article:nth-child(2) h4 {
+        text-align: left;
+    }
+
+    .tm-right {
+        font-size: 1.6rem;
+    }
+
+    body > footer > p {
+        font-size: 1.6rem;
+    }
+}

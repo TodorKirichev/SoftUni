@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, input {
+    font: 24px/1.5 "Kode Mono", monospace;
+}
+
+body {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+p:not(:first-of-type){
+    padding: 1rem 0;
+}
+
+p:last-of-type {
+    padding-bottom: 0;
+}
+
+form {
+    width: 740px;
+    background-color: #24333C;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0, 0.5);
+}
+
+.field input {
+    background-color: #24333C;
+    border: 1px solid #92999E;
+    padding: 0.2rem 0.5rem;
+}
+
+.field input::placeholder {
+    color: #92999E;
+}
+
+.field input::placeholder::after {
+    content: '*';
+}
+
+.buttons {
+    display: flex;
+}
+
+a input {
+    padding: 0.6rem 0;
+    cursor: pointer;
+}
+
+.buttons a input:hover {
+    background-color: #179A77 !important;
+}
+
+.buttons > * {
+    flex-grow: 1;
+    border: none;
+}
+
+.buttons input {
+    width: 100%;
+}
+
+.buttons a:first-of-type input {
+    color: white;
+    background-color: #1AB188;
+    border: none;
+}
+
+.buttons a:last-of-type input {
+    color: #92999E;
+    background-color: #435359;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    padding: 1rem;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.names input {
+    width: 50%;
+}
+
+.email input,
+.password input {
+    width: 100%;
+}
+
+.entry input {
+    width: 100%; 
+    background-color: #1AB188;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 0.8rem;
+    border: none;
+}

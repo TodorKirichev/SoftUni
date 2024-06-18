@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 18px/1.5 'Karla';
+}
+
+.section-header .content h1,
+.section-customer .content p,
+.section-mind .wrapper .content h2,
+.section-guide .content h2 {
+    font-family: 'Cormorant Infant';
+}
+
+.section-header {
+    position: relative;
+    min-height: 960px;
+}
+
+.section-header .background-image {
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section-header .background-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-header header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem max(2rem, calc((100vw - 1500px) / 2));
+}
+
+.section-header .logo img {
+    width: 100px;
+}
+
+.section-header nav {
+    display: flex;
+    align-items: center;
+}
+
+.section-header header nav ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.section-header header nav ul li {
+    list-style: none;
+}
+
+.section-header header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-header .content {
+    padding-top: 18rem;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.section-header .content h1 {
+    font-size: 90px;
+    margin-bottom: 5rem;
+}
+
+.section-header .content p {
+    max-width: 32%;
+    margin: 0 auto;
+}
+
+.section-header .shadow {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.section-customer {
+    background-color: #F8F0E9;
+    padding-bottom: 4rem;
+}
+
+.section-customer .content {
+    max-width: 48%;
+    margin: 0 auto;
+}
+
+.section-customer .content h4 {
+    font-weight: normal;
+    padding-top: 3rem;
+}
+
+.section-customer .content p {
+    font-size: 3.8rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.8;
+    padding: 4rem 0;
+    opacity: 0.8;
+}
+
+.section-support {
+    background-color: #E14747;
+    padding: 4rem 0;
+}
+
+.section-support .content {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.section-support .content h3 {
+    font-size: 1.5rem;
+}
+
+.section-support .content p {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.section-mind {
+    padding: 4rem 0;
+    background-color: #F8F0E9;
+}
+
+.section-mind .wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-mind .media {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.section-mind .media img {
+    width: 113%;
+}
+
+.section-mind .wrapper .content {
+    text-align: center;
+}
+
+.section-mind .wrapper .content h2 {
+    font-size: 3.7rem;
+    padding: 5rem 0;
+    line-height: 1;
+    opacity: 0.8;
+}
+
+.section-mind .wrapper .content p {
+    text-align: left;
+}
+
+.section-mind .wrapper .button a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 6px 16px;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    font-size: 0.9rem;
+}
+
+.section-mind .wrapper .button {
+    margin-top: 4rem;
+}
+
+.section-mind .wrapper .button2 {
+    align-self: center;
+}
+
+.section-guide {
+    background-color: #E14747;
+    text-align: center;
+    color: white;
+}
+
+.section-guide .content {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.section-guide .content h2 {
+    font-size: 3.8rem;
+    padding: 6rem 0;
+}
+
+.section-guide .content p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.section-guide .content .button3 {
+    padding: 4rem 0;
+}
+
+.section-guide .content .button3 a {
+    text-decoration: none;
+    color: black;
+    background-color: #FAD87A;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+}
+
+.section-footer {
+    background-color: #352B2A;
+}
+
+.section-footer .content {
+    max-width: 68%;
+    margin: 0 auto;
+    color: white;
+    font-size: 0.9rem;
+    padding: 2rem 0;
+}
+
+.section-footer .content > * {
+    padding: 0.8rem 0;
+}
+
+.section-footer .content p {
+    max-width: 30%;
+}
+
+.section-footer .content p:last-of-type {
+    font-size: 0.8rem;
+    color: #765F48;
+}
+
+.section-footer .media img {
+    width: 60px;
+}
