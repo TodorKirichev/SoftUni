@@ -59,3 +59,144 @@ header nav ul li a {
     position: absolute;
     z-index: -1;
 }
+
+.container-plans {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 60px;
+    min-height: 710px;
+}
+
+.container-plans .title {
+    color: #fff;
+    width: 140px;
+    text-align: center;
+}
+
+.plan {
+    flex: 1 1 870px;
+    display: flex;
+    padding: 20px;
+    padding-top: 80px;
+    align-items: flex-start;
+}
+
+.plan article {
+    border-radius: 14px;
+    max-width: 520px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+}
+
+.plan1 {
+    justify-content: flex-end;
+    background-image: url(images/music.png);
+    background-size: cover;
+}
+
+.plan2 {
+    justify-content: flex-start;
+}
+
+.plan article .information {
+    padding: 20px 60px;
+}
+
+.plan article .information h2 {
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 60px;
+}
+
+.plan2 article .information h2 {
+    padding-bottom: 20px;
+}
+
+.plan article .information ul {
+    list-style: circle;
+}
+
+.plan article .information ul li {
+    line-height: 1.2;
+    padding-bottom: 12px;
+    opacity: 0.8;
+}
+
+.plan article .information .link {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.plan2 article .information .link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plan article .information .link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DB954;
+    padding: 12px 50px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.plan article .prices {
+    background-color: #000;
+    color: #fff;
+    padding: 18px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.plan article .prices span {
+    padding: 10px 6px;
+
+}
+
+.plan1 article .prices span:last-of-type {
+    border-left: 1px solid #fff;
+    padding-left: 30px;
+}
+
+.dogopal {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dogopal .content {
+    flex: 0 1 66%;
+}
+
+.dogopal .content p {
+    max-width: 90%;
+}
+
+.dogopal .content > * {
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+
+.dogopal .media {
+    width: 480px;
+}
+
+.dogopal .media img {
+    width: 100%;
+}
+
+.experience {
+    padding: 100px 0;
+}
+
+.experience .container{
+    padding: 100px max(40px, calc((100vw - 1250px) / 2));
+}
