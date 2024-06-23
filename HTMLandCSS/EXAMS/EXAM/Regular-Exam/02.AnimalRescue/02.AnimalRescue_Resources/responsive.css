@@ -14,13 +14,12 @@
     }
 
     .our-dogs ul li {
-        flex: 0 1 200px;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
 
     .our-dogs ul li img {
-        width: 100%;
-        height: 100%;
+        width: 200px;
+        height: 200px;
     }
 
     .helpNeed ul {

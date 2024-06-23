@@ -18,7 +18,7 @@ body {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 25px;
     opacity: 0.8;
     padding-bottom: 10px;
 }
@@ -28,16 +28,17 @@ p {
 }
 
 .container {
-    background-color: #F9F9F9;
+    background-color: #fff;
     border-radius: 20px;
+    overflow: hidden;
     max-width: 1000px;
-    min-height: 810px;
-
+    box-shadow: 0 0 60px 0 rgb(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
 }
 
 .media {
     background-image: url(images/nature.jpg);
-    margin: 20px;
+    margin: 24px;
     background-size: cover;
     width: 950px;
     height: 540px;
@@ -62,7 +63,9 @@ p {
 }
 
 .info {
-    padding: 40px;
+    background-color: #F9F9F9;
+    padding: 40px 40px 30px 46px;
+    border-top: 1px solid #ccc;
 }
 
 .info h3 {
@@ -74,6 +77,3 @@ p {
     padding-bottom: 10px;
 }
 
-hr {
-    border-color: #eee;
-}
