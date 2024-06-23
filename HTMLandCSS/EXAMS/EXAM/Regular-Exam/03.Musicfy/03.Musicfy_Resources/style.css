@@ -145,6 +145,7 @@ header nav ul li a {
     border-radius: 30px;
     font-weight: 600;
     font-size: 18px;
+    font-family: 'Montserrat';
 }
 
 .plan article .prices {
@@ -166,10 +167,11 @@ header nav ul li a {
 }
 
 .dogopal {
-    padding: 100px;
+    padding: 100px 100px 0 100px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 20px;
 }
 
 .dogopal .content {
@@ -186,7 +188,7 @@ header nav ul li a {
 }
 
 .dogopal .media {
-    width: 480px;
+    width: 460px;
 }
 
 .dogopal .media img {
@@ -194,9 +196,55 @@ header nav ul li a {
 }
 
 .experience {
-    padding: 100px 0;
+    padding: 70px max(40px, calc((100vw - 1250px) / 2));
+    padding-bottom: 100px;
 }
 
-.experience .container{
-    padding: 100px max(40px, calc((100vw - 1250px) / 2));
+.experience {
+    text-align: center;
 }
+
+.experience .list {
+    text-align: left;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.experience .title {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.experience .subtitle {
+    padding-bottom: 40px;
+}
+
+.experience .list p {
+    padding: 10px 12px;
+}
+
+.experience .list > :nth-child(odd) {
+    background-color: #CCCBCB;
+}
+
+.experience .list > :nth-child(even) {
+    background-color: #81D8A0;
+}
+
+.experience .list p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience .list p  span img {
+    padding: 0 76px;
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 32px;
+}
+
