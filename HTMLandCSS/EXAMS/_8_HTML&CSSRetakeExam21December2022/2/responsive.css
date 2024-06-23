@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    .div-header {
+        display: none;
+    }
+
+    .button-header {
+        font-size: 4rem;
+    }
+}

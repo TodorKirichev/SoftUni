@@ -1,0 +1,45 @@
+@media (max-width:600px) {
+
+    .home-main {
+        margin-top: 1rem;
+    }
+
+    .navigation-nav,
+    .home-text {
+        display: none;
+    }
+
+    .home-tab-selector-cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-image {
+        display: none;
+    }
+
+    .section-container {
+        padding: 36px 0 36px 0;
+    }
+
+    .home-text10 {
+        margin-right: 30px;
+    }
+
+    .home-top-part {
+        flex-direction: column;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .home-subscribe-container {
+        width: 100%;
+    }
+
+    .button-primary {
+        line-height: 2;
+    }
+}

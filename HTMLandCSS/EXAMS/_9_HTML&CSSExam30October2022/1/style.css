@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    font: 14px/1.5 'Open Sans';
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 1340px;
+    display: flex;
+    background-color: #F6F7F8;
+    gap: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid grey;
+    box-shadow: 0px 16px 28px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 16px 28px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 16px 28px -6px rgba(0,0,0,0.75);
+}
+
+.media {
+    flex: 1 1 400px;
+    display: flex;
+    position: relative;
+}
+
+.media::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.media img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+}
+
+.content .buttons {
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 1rem;
+}
+
+.content .buttons * {
+    border: 1px solid black;
+    border-radius: 0.7rem;
+    font-size: 16px;
+}
+
+.content .buttons :first-child {
+    background-color: #86D862;
+    padding: 0.4rem 1rem;
+}
+
+.content .buttons :last-child {
+    background-color: #E0E0DF;
+    padding: 0.4rem 3rem;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+form.gender {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#gender {
+    width: 200px;
+}
+
+form.weight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+#pounds {
+    width: 85%;
+    padding: 0.3rem;
+}
+
+form.height {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#height {
+    width: 100%;
+}
+
+#feet,
+#inches {
+    width: 45%;
+    border-radius: 0.4rem;
+    padding: 0.1rem 0.4rem;
+}
+
+form.gender > :nth-child(1),
+form.weight > :nth-child(1), 
+form.height > :nth-child(1) {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.calculate {
+    width: 100%;
+    border-radius: 2rem;
+    background-color: #05A2D3;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 3rem;
+    box-shadow: 0px 16px 33px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 16px 33px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 16px 33px -8px rgba(0,0,0,0.75);
+}
+
+input, select {
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 0.2rem;
+}

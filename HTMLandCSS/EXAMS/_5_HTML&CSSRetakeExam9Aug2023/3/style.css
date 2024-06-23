@@ -1,0 +1,267 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    font: 20px/1.2 'Inter';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-header nav {
+    display: flex;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    padding: 2rem 3rem 1.5rem 5rem;
+}
+
+.section-header nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.section-header nav ul li {
+    list-style: none;
+}
+
+.section-header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-header nav .button a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.section-header .container {
+    background-image: url(images/background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-header .content {
+    max-width: 67%;
+    margin: 0 auto;
+    padding: 9rem 0 8rem 0;
+}
+
+.section-header .content h1 {
+    font-size: 3rem;
+    padding-bottom: 5rem;
+    max-width: 60%;
+}
+
+.section-header .content p {
+    font-size: 1.15rem;
+    color: white;
+    font-weight: bold;
+    max-width: 60%;
+    padding-bottom: 3.5rem;
+}
+
+.section-header .content .link a {
+    text-decoration: none;
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.section-info {
+    padding: 5rem 3rem 3rem 3rem;
+}
+
+.section-info ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.section-info ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-info ul li :first-child {
+    font-size: 3rem;
+    color: #FF7C4C;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.section-info ul li :nth-child(2) {
+    font-size: 1.1rem;
+    padding-bottom: 0.8rem;
+}
+
+.section-info ul li :nth-child(3) {
+    font-size: 0.7rem;
+}
+
+.section-enterprise {
+    background-color: #D9D9D9;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-enterprise article {
+    display: flex;
+    gap: 2rem;
+}
+
+.section-enterprise article .media {
+    flex: 0 0 36%;
+}
+
+.section-enterprise article .media img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-enterprise article .content {
+    flex: 1 1 auto;
+}
+
+.section-enterprise article h4 {
+    color: #595959;
+    font-weight: 600;
+    padding: 2.2rem 0;
+}
+
+.section-enterprise article h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-enterprise article p:nth-of-type(1),
+.section-enterprise article p:nth-of-type(3) {
+    color: #595959;
+    padding: 0.5rem 0;
+}
+
+.section-enterprise article p:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+.section-plans {
+    background-color: #F5F5F5;
+    padding: 0 3rem;
+}
+
+.section-plans .content {
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.section-plans .content > * {
+    flex: 1 1 30%;
+}
+
+.section-plans .title h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.section-plans .title p {
+    color: #595959;
+    margin-top: 2rem;
+}
+
+.plan {
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0, 0.2);
+}
+
+.plan > * {
+    padding-bottom: 1rem;
+}
+
+.plan h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 4rem;
+    font-weight: 200;
+    margin: 1rem 0;
+}
+
+.plan p span {
+    font-weight: bold;
+}
+
+.plan .button {
+    margin-top: 3rem;
+}
+
+.plan .button a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.plan1 {
+    background-color: #FF7C4C;
+}
+
+.plan1 .button a {
+    background-color: black;
+    color: white;
+}
+
+.plan2 {
+    background-color: black;
+    color: white;
+}
+
+.plan2 .button a {
+    background-color: white;
+    color: black;
+}
+
+.section-footer {
+    background-color: #D9D9D9;
+}
+
+.section-footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    max-width: 72%;
+    margin: 0 auto;
+}
+
+.section-footer ul li {
+    list-style: none;
+}
+
+.section-footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}

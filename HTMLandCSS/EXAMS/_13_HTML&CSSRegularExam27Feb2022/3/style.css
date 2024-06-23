@@ -1,0 +1,285 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 'Helvetica';
+}
+
+/* body {
+    padding: 0 max(0px, calc((100vw - 1680px) / 2));
+} */
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #454545;
+}
+
+h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #454545;
+    font-size: 28px;
+}
+
+.wrapper {
+    padding: 0 max(10px, calc((100vw - 1260px) / 2));
+}
+
+header {
+    margin: 32px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    color: #454545;
+}
+
+header nav p {
+    font-size: 36px;
+}
+
+header nav p span {
+    color: #21A2B5;
+}
+
+header nav ul {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #454545;
+    padding-bottom: 10px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 4px solid #21A2B5;
+}
+
+.banner {
+    background-image: url(images/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .title {
+    width: 620px;
+    height: 250px;
+    position: relative;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.banner .title > * {
+    padding: 20px;
+}
+
+.banner .title::before {
+    content: '';
+    width: 620px;
+    height: 250px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner h1 {
+    font-size: 52px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.3;
+    padding-bottom: 0;
+}
+
+.banner .link {
+    padding-top: 0;
+}
+
+.banner .link a {
+    text-decoration: none;
+    padding: 12px 42px;
+    color: white;
+    font-size: 30px;
+    background-color: #008CBA;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    text-align: center;
+    color: #454545;
+    padding: 20px;
+}
+
+hr {
+    width: 100px;
+    margin: 0 auto;
+    height: 2px;
+    border: 2px solid #21A2B5;
+    margin-bottom: 20px;
+}
+
+.welcome .link {
+    margin: 50px;
+}
+
+.welcome .link a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 40px;
+    background-color: #454545;
+}
+
+.our-service {
+    text-align: center;
+    background-color: #EEF0F1;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.our-service .container {
+    display: flex;
+    gap: 30px;
+    flex-flow: row wrap;
+}
+
+.our-service .container article {
+    flex: 1 1 30%;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.our-service .container .media img {
+    width: 100%;
+}
+
+.our-service .content {
+    padding: 10px;
+}
+
+.our-service hr {
+    width: 120px;
+    border-color: #454545;
+    margin-bottom: 50px;
+}
+
+.our-service .link {
+    margin: 30px 0;
+}
+
+.our-service .link a {
+    text-decoration: none;
+    color: white;
+    background-color: #454545;
+    padding: 12px 26px;
+    border-radius: 6px;
+}
+
+.subscribe {
+    background-color: #393F43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.subscribe > * {
+    color: white;
+}
+
+.subscribe hr {
+    border-color: white;
+}
+
+.subscribe input {
+    padding: 14px;
+    background-color: #545A5E;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.subscribe .contact {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe .contact input {
+    flex: 0 1 600px;
+}
+
+.subscribe .contact button {
+    flex: 0 2 240px;
+    background-color: #6BBFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #2F3539;
+    color: white;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer nav ul li:first-of-type {
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+footer nav ul:nth-of-type(3) li:nth-of-type(2) {
+    margin-bottom: 40px;
+}
+
+footer i {
+    margin-right: 20px;
+}
+
+footer p {
+    background-color: #262B2F;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer p span {
+    color: #008CBA;
+}

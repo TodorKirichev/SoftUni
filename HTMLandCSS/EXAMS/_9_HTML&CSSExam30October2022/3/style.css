@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.4 'PT Sans';
+}
+
+header {
+    background-color: #D01919;
+    padding: 1rem 3rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 400;
+}
+
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+
+header nav i {
+    padding-right: 12px;
+}
+
+.section-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(image/fitness-main.jpg);
+    color: white;
+    padding: 1.5rem 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-home nav {
+    align-self: flex-end;
+}
+
+.section-home nav ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.section-home nav ul li {
+    list-style: none;
+}
+
+.section-home h1 {
+    margin-top: 7rem;
+    font-size: 3rem;
+    letter-spacing: 13px;
+}
+
+.section-home p {
+    max-width: 33%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.8rem 0;
+}
+
+.section-home button {
+    padding: 0.6rem 1rem;
+    background-color: #D01919;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 0.8rem;
+    margin-bottom: 6rem;
+    cursor: pointer;
+}
+
+.section-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.section-welcome h2 {
+    font-size: 2rem;
+}
+
+hr {
+    width: 50px;
+    border: 1px solid #D01919;
+    height: 3px;
+    background-color: #D01919;
+    margin: 1.7rem 0;
+}
+
+.section-welcome .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    gap: 3rem;
+}
+
+.section-welcome .container article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 380px;
+}
+
+.section-welcome .media {
+    width: 70px;
+    margin-bottom: 1rem;
+}
+
+.section-welcome .media img {
+    width: 100%;
+}
+
+.section-welcome .container article h4 {
+    color: #D01919;
+    margin-bottom: 1rem;
+}
+
+.section-welcome .container article p {
+    text-align: center;
+}
+
+.section-coaches {
+    background-color: #EFEFEF;
+}
+
+.section-coaches .container {
+    justify-content: space-around;
+}
+
+.section-coaches .media {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.section-coaches .container article h4 {
+    color: black;
+}
+
+.section-coaches .container article h5 {
+    color: #D01919;
+}
+
+.section-coaches .container article p {
+    opacity: 0.4;
+}
+
+footer {
+    background-color: #D01919;
+    text-align: center;
+    padding: 0.5rem;
+}
