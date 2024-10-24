@@ -1,0 +1,60 @@
+package entities;
+
+import jakarta.persistence.*;
+
+import java.math.BigDecimal;
+import java.util.HashSet;
+import java.util.Set;
+
+@Entity
+@Table(name = "products")
+public class Product extends BaseEntity {
+
+    private String name;
+
+    private Double quantity;
+
+    private BigDecimal price;
+
+    private Set<Sale> sales;
+
+    public Product() {
+        this.sales = new HashSet<>();
+    }
+
+    @OneToMany(mappedBy = "product", cascade = CascadeType.PERSIST)
+    public Set<Sale> getSales() {
+        return sales;
+    }
+
+    public void setSales(Set<Sale> sales) {
+        this.sales = sales;
+    }
+
+    @Column
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Column
+    public Double getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Double quantity) {
+        this.quantity = quantity;
+    }
+
+    @Column
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+}
