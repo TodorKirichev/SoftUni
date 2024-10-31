@@ -1,5 +1,5 @@
-package coma.entities;
-import javax.persistence.*;
+package com.example.advquerying.entities;
+import jakarta.persistence.*;
 import java.util.Set;
 
 @Entity

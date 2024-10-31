@@ -1,13 +1,13 @@
-package coma;
+package com.example.advquerying;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AdvqueryingApplication {
+public class AdvQueryingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdvqueryingApplication.class, args);
+        SpringApplication.run(AdvQueryingApplication.class, args);
     }
 
 }

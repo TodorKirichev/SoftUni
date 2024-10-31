@@ -1,5 +1,5 @@
-package coma.entities;
-import javax.persistence.*;
+package com.example.advquerying.entities;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.util.Set;
 
@@ -41,5 +41,10 @@ public class Ingredient extends BaseEntity {
 
     public void setShampoos(Set<Shampoo> shampoos) {
         this.shampoos = shampoos;
+    }
+
+    @Override
+    public String toString() {
+        return this.name;
     }
 }

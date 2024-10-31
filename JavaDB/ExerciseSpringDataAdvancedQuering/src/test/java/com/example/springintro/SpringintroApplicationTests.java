@@ -1,10 +1,10 @@
-package com.example.advquerying;
+package com.example.springintro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AdvQueryingApplicationTests {
+class SpringintroApplicationTests {
 
     @Test
     void contextLoads() {
