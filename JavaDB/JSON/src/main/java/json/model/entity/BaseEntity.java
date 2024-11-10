@@ -7,9 +7,9 @@ import jakarta.persistence.MappedSuperclass;
 import jakarta.validation.constraints.Email;
 
 @MappedSuperclass
-public class BaseEntity {
+public abstract class BaseEntity {
 
-    private  Long id;
+    private Long id;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
