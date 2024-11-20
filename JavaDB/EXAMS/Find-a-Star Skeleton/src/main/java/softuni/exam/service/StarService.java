@@ -1,8 +1,10 @@
 package softuni.exam.service;
 
 import softuni.exam.models.entity.Star;
+import softuni.exam.models.entity.StarType;
 
 import java.io.IOException;
+import java.util.List;
 
 public interface StarService {
 
@@ -17,4 +19,5 @@ public interface StarService {
     Star findStarById(Long observingStarId);
 
     void save(Star star);
+
 }

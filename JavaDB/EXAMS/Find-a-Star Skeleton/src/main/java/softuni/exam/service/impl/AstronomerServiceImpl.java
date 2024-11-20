@@ -56,7 +56,7 @@ public class AstronomerServiceImpl implements AstronomerService {
                     Astronomer astronomer = astronomerRepository
                             .findByFirstNameAndLastName(astronomerImportDto.getFirstName(), astronomerImportDto.getLastName());
 
-                    Star star = starService.findStarById(astronomerImportDto.getObservingStarId());
+                    Star star = starService.findStarById(astronomerImportDto.getObservingStar());
 
                     if (star == null) {
                         isValid = false;
@@ -81,7 +81,7 @@ public class AstronomerServiceImpl implements AstronomerService {
                 }).map(astronomerImportDto -> {
                     Astronomer astronomer = modelMapper.map(astronomerImportDto, Astronomer.class);
 
-                    Star star = starService.findStarById(astronomerImportDto.getObservingStarId());
+                    Star star = starService.findStarById(astronomerImportDto.getObservingStar());
 
 
                     star.getObservers().add(astronomer);
