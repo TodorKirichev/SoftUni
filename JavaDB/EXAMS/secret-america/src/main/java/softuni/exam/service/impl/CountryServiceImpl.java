@@ -68,4 +68,9 @@ public class CountryServiceImpl implements CountryService {
 
         return sb.toString().trim();
     }
+
+    @Override
+    public Country findCountryById(long id) {
+        return countryRepository.findById(id);
+    }
 }

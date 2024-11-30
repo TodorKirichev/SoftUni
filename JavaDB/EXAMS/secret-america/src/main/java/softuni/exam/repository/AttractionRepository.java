@@ -6,4 +6,6 @@ import softuni.exam.models.entity.Attraction;
 
 @Repository
 public interface AttractionRepository extends JpaRepository<Attraction, Long> {
+
+    Attraction findByName(String name);
 }
