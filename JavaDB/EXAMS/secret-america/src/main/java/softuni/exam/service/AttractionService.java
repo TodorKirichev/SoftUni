@@ -1,5 +1,7 @@
 package softuni.exam.service;
 
+import softuni.exam.models.entity.Attraction;
+
 import java.io.IOException;
 
 public interface AttractionService {
@@ -12,4 +14,5 @@ public interface AttractionService {
 
     String exportAttractions();
 
+    Attraction findAttractionById(long id);
 }

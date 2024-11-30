@@ -28,7 +28,7 @@ public class AttractionImportDto {
 
     @Expose
     @NotNull
-    @Min(0)
+    @Min(value = 0)
     private Integer elevation;
 
     @Expose

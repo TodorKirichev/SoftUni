@@ -24,7 +24,7 @@ public class PersonalData extends BaseEntity {
     private String cardNumber;
 
     @Column
-    private char gender;
+    private String gender;
 
 
 }

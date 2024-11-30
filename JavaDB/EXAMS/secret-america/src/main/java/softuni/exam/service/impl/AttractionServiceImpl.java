@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.Set;
 
 @Service
 
@@ -83,6 +84,26 @@ public class AttractionServiceImpl implements AttractionService {
 
     @Override
     public String exportAttractions() {
-        return null;
+        StringBuilder sb = new StringBuilder();
+
+        Set<Attraction> attractions = attractionRepository
+                .findAllAttractionsWithHistoricalOrArchaelogicalSiteWithElevationMoreOrEqualTo300("historical site", "archaeological site", 300);
+        attractions.forEach(attraction -> {
+            sb.append(String.format("Attraction with ID%d:\n" +
+                    "***%s - %s at an altitude of %dm. somewhere in %s.",
+                    attraction.getId(),
+                    attraction.getName(),
+                    attraction.getDescription(),
+                    attraction.getElevation(),
+                    attraction.getCountry().getName()))
+                    .append(System.lineSeparator());
+        });
+
+        return sb.toString().trim();
+    }
+
+    @Override
+    public Attraction findAttractionById(long id) {
+        return attractionRepository.findById(id);
     }
 }

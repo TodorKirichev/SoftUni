@@ -6,4 +6,8 @@ import softuni.exam.models.entity.PersonalData;
 
 @Repository
 public interface PersonalDataRepository extends JpaRepository<PersonalData, Long> {
+
+    PersonalData findByCardNumber(String cardNumber);
+
+    PersonalData findById(long id);
 }

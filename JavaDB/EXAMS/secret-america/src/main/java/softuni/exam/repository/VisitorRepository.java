@@ -6,4 +6,8 @@ import softuni.exam.models.entity.Visitor;
 
 @Repository
 public interface VisitorRepository extends JpaRepository<Visitor, Long> {
+
+    Visitor findByFirstNameAndLastName(String firstName, String lastName);
+
+    Visitor findByPersonalData_Id(Long id);
 }
