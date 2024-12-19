@@ -68,7 +68,9 @@
 
 <div class="container">
     <h2 class="text-center text-white">Upload Offer</h2>
-    <form method="POST" 
+    <form   th:action="@{/offers/add}"
+            th:method="POST"
+            th:object="${addOfferDto}"
           class="main-form mx-auto col-md-8 d-flex flex-column justify-content-center">
         <div class="row">
 
@@ -95,10 +97,12 @@
         </div>
         <div class="row">
             <div class="form-group col-md-6 mb-3">
-                <label class="text-center text-white font-weight-bold" for="engine">Engine</label>
-                <select id="engine" class="form-control">
+                <label class="text-center text-white font-weight-bold" for="engineType">Engine</label>
+                <select name="engineType" id="engineType" class="form-control">
                     <option value="">- Select engine type -</option>
-                    <option>
+                    <option th:each="type: ${allEngineTypes}"
+                            th:text="${type}"
+                            th:value="${type}">
                         Engine type
                     </option>
                 </select>
@@ -140,7 +144,7 @@
 
         <div class="form-group">
             <label class="text-white font-weight-bold" for="description">Description</label>
-            <textarea id="description" type="textarea" class="form-control" rows="3"
+            <textarea th:field="*{addOfferDto.description}" id="description" type="textarea" class="form-control" rows="3"
                       placeholder="Description"></textarea>
             <p class="errors alert alert-danger">
                 Description is required.
