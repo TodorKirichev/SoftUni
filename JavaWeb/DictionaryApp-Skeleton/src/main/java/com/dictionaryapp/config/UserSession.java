@@ -18,4 +18,8 @@ public class UserSession {
         this.id = user.getId();
         this.username = user.getUsername();
     }
+
+    public boolean isUserLoggedIn() {
+        return this.id == null;
+    }
 }
